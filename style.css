@@ -1,0 +1,129 @@
+body {
+  background-image: url("img/portfoleo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbar .logo {
+  font-size: 30px;
+  color: orchid;
+}
+
+#logo-x {
+  padding-top: 11px;
+  color: orchid;
+}
+
+.navbar ul {
+  overflow: auto;
+  padding: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0px 9px;
+  color: cornsilk;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: cornsilk;
+  font-size: 20px;
+}
+
+.links {
+  padding-top: 7px;
+}
+
+.search-box {
+  float: right;
+  margin: 0px 10px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.search {
+  border: 7px solid white;
+  border-radius: 15px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.fas {
+  float: right;
+  color: white;
+  margin-right: 20px;
+  padding: 0px 7px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: darkorchid;
+}
+
+.para {
+  color: whitesmoke;
+}
+
+#firstpara {
+  font-size: 25px;
+  font-family: "Style Script", cursive;
+  margin: 0px 24px;
+  padding: 47px 6px;
+}
+
+#secpara {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0px 30px;
+}
+
+#thirdpara {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px 30px;
+}
+.fourthpara {
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 0px 30px;
+}
+.btn {
+  background: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.btn:hover {
+  color: blueviolet;
+}
+#new {
+  background: yellow;
+  border: 10px solid yellow;
+  border-radius: 7px;
+  font-family: "Kanit", sans-serif;
+  margin-left: 30px;
+  font-weight: bold;
+}
+#btn {
+  background: salmon;
+  border: 10px solid salmon;
+  border-radius: 7px;
+  font-family: "Kanit", sans-serif;
+  margin-left: 30px;
+  font-weight: bold;
+}
